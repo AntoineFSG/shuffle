@@ -25,6 +25,6 @@ const scrambleWordsWithSplice = sentence => {
 
 console.log(
   scrambleWordsWithSplice(
-    "This is because the human mind does not read every letter by itself but the word as a whole, it works for absolutely any sentence !"
+    "This is because the human mind does not read every letter by itself but the word as a whole"
   )
 );
