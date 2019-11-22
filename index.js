@@ -1,5 +1,4 @@
 const scrambleWordsWithSplice = sentence => {
-  //breaking down the sentence in an array of arrays of letters and shuffling the letters in each array
   const scrambledSentence = sentence
     .split(" ")
     .map(word => {
@@ -10,7 +9,6 @@ const scrambleWordsWithSplice = sentence => {
       for (let i = 0; i < arr.length - 3; i += 2) {
         arrTemp.splice(i + 1, 2, arr[i + 2], arr[i + 1]);
       }
-      //replacing the original array with its shuffled copy
       return arrTemp;
     })
     //going back to a sentence
